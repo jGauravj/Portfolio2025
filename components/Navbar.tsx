@@ -13,7 +13,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="absolute top-2 border-y border-neutral-300 w-full z-10">
+    <nav className="absolute top-2 border-y border-neutral-300 w-full z-10">
       <div className="max-w-3xl mx-auto flex justify-between items-center px-4 bg-background border-x">
         <div>
           <h1 className="text-5xl font-pixelify font-bold">GJ</h1>
@@ -40,7 +40,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
