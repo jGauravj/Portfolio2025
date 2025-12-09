@@ -1,6 +1,6 @@
 import Banner from "@/components/Banner";
 import ProfileHeader from "@/components/ProfileHeader";
-import myimg from "../public/myimg2.jpg";
+import myimg from "@/public/mychar.png";
 
 const page = () => {
   return (
