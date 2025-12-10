@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import ProfileHeader from "@/components/ProfileHeader";
+import UserInfo from "@/components/UserInfo";
 import myimg from "@/public/mychar.png";
 
 const page = () => {
@@ -12,6 +13,7 @@ const page = () => {
           role="Frontend Developer"
           image={myimg}
         />
+        <UserInfo />
       </div>
     </div>
   );
